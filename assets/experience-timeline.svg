@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 200" width="100%" height="100%">
+  <!-- 
+  =============================================================================
+  ✏️ EDITING GUIDE FOR YASH MAHAJAN:
+  Each company node has 4 editable items:
+  1. Date text (e.g. "Jun '26 – Jul '26")
+  2. Company name (e.g. "Jio Platforms")
+  3. Role (e.g. "DevOps Intern")
+  4. Tech tag (e.g. "Cloud & CI/CD")
+  
+  To change a company, simply replace the text between <text>...</text> tags!
+  =============================================================================
+  -->
+  <defs>
+    <linearGradient id="timeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0a0e1a" />
+    </linearGradient>
+
+    <linearGradient id="trackGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#818cf8" />
+      <stop offset="70%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+
+    <linearGradient id="glowDot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    }
+    @keyframes nodePulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.15); opacity: 0.8; }
+    }
+    .active-node {
+      animation: nodePulse 2.5s infinite ease-in-out;
+      transform-origin: 110px 45px;
+    }
+  </style>
+
+  <!-- CARD BACKGROUND -->
+  <rect x="2" y="2" width="892" height="196" rx="12" fill="url(#timeBg)" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- TIMELINE CONNECTING TRACK -->
+  <line x1="80" y1="45" x2="816" y2="45" stroke="#1e293b" stroke-width="3" stroke-linecap="round" />
+  <line x1="80" y1="45" x2="816" y2="45" stroke="url(#trackGrad)" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+
+  <!-- ================= ✏️ EDITABLE NODE 1: JIO PLATFORMS ================= -->
+  <g transform="translate(40, 0)">
+    <circle cx="70" cy="45" r="9" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5" />
+    <circle cx="70" cy="45" r="4" fill="#38bdf8" class="active-node" />
+    
+    <!-- Date -->
+    <rect x="18" y="16" width="104" height="18" rx="4" fill="#13273e" stroke="#0284c7" stroke-width="0.8" />
+    <text x="70" y="29" text-anchor="middle" fill="#38bdf8" class="font-mono" font-size="9" font-weight="700">Jun '26 – Jul '26</text>
+
+    <!-- Company & Role -->
+    <text x="70" y="74" text-anchor="middle" fill="#f8fafc" class="font-sans" font-size="13" font-weight="700">Jio Platforms</text>
+    <text x="70" y="92" text-anchor="middle" fill="#94a3b8" class="font-sans" font-size="11" font-weight="500">DevOps Intern</text>
+
+    <!-- Tech Tag -->
+    <rect x="12" y="104" width="116" height="20" rx="4" fill="#1e293b" />
+    <text x="70" y="118" text-anchor="middle" fill="#cbd5e1" class="font-mono" font-size="9.5">Cloud &amp; CI/CD</text>
+    
+    <text x="70" y="142" text-anchor="middle" fill="#64748b" class="font-sans" font-size="9.5">Infrastructure</text>
+  </g>
+
+  <!-- ================= ✏️ EDITABLE NODE 2: ATYETI ROBOTICS ================= -->
+  <g transform="translate(255, 0)">
+    <circle cx="70" cy="45" r="8" fill="#0f172a" stroke="#818cf8" stroke-width="2.5" />
+    <circle cx="70" cy="45" r="3.5" fill="#818cf8" />
+
+    <!-- Date -->
+    <rect x="18" y="16" width="104" height="18" rx="4" fill="#1e1b4b" stroke="#6366f1" stroke-width="0.8" />
+    <text x="70" y="29" text-anchor="middle" fill="#a5b4fc" class="font-mono" font-size="9" font-weight="700">Dec '25 – Jan '26</text>
+
+    <!-- Company & Role -->
+    <text x="70" y="74" text-anchor="middle" fill="#f8fafc" class="font-sans" font-size="13" font-weight="700">Atyeti Robotics</text>
+    <text x="70" y="92" text-anchor="middle" fill="#94a3b8" class="font-sans" font-size="11" font-weight="500">SDE Frontend Intern</text>
+
+    <!-- Tech Tag -->
+    <rect x="12" y="104" width="116" height="20" rx="4" fill="#1e293b" />
+    <text x="70" y="118" text-anchor="middle" fill="#cbd5e1" class="font-mono" font-size="9.5">Next.js • Django</text>
+
+    <text x="70" y="142" text-anchor="middle" fill="#64748b" class="font-sans" font-size="9.5">Robotics UI Systems</text>
+  </g>
+
+  <!-- ================= ✏️ EDITABLE NODE 3: RELIANCE INDUSTRIES ================= -->
+  <g transform="translate(470, 0)">
+    <circle cx="70" cy="45" r="8" fill="#0f172a" stroke="#10b981" stroke-width="2.5" />
+    <circle cx="70" cy="45" r="3.5" fill="#10b981" />
+
+    <!-- Date -->
+    <rect x="18" y="16" width="104" height="18" rx="4" fill="#062d22" stroke="#059669" stroke-width="0.8" />
+    <text x="70" y="29" text-anchor="middle" fill="#34d399" class="font-mono" font-size="9" font-weight="700">May '25 – Jul '25</text>
+
+    <!-- Company & Role -->
+    <text x="70" y="74" text-anchor="middle" fill="#f8fafc" class="font-sans" font-size="13" font-weight="700">Reliance Industries</text>
+    <text x="70" y="92" text-anchor="middle" fill="#94a3b8" class="font-sans" font-size="11" font-weight="500">SDE Backend Intern</text>
+
+    <!-- Tech Tag -->
+    <rect x="12" y="104" width="116" height="20" rx="4" fill="#1e293b" />
+    <text x="70" y="118" text-anchor="middle" fill="#cbd5e1" class="font-mono" font-size="9.5">FastAPI • Python</text>
+
+    <text x="70" y="142" text-anchor="middle" fill="#64748b" class="font-sans" font-size="9.5">MME Quote Service</text>
+  </g>
+
+  <!-- ================= ✏️ EDITABLE NODE 4: VESIT INTERNSHIPS ================= -->
+  <g transform="translate(685, 0)">
+    <circle cx="70" cy="45" r="8" fill="#0f172a" stroke="#fbbf24" stroke-width="2.5" />
+    <circle cx="70" cy="45" r="3.5" fill="#fbbf24" />
+
+    <!-- Date -->
+    <rect x="18" y="16" width="104" height="18" rx="4" fill="#332402" stroke="#d97706" stroke-width="0.8" />
+    <text x="70" y="29" text-anchor="middle" fill="#fde68a" class="font-mono" font-size="9" font-weight="700">Dec '24 – Jan '26</text>
+
+    <!-- Company & Role -->
+    <text x="70" y="74" text-anchor="middle" fill="#f8fafc" class="font-sans" font-size="13" font-weight="700">VESIT Innovations</text>
+    <text x="70" y="92" text-anchor="middle" fill="#94a3b8" class="font-sans" font-size="11" font-weight="500">AI &amp; ERP Intern</text>
+
+    <!-- Tech Tag -->
+    <rect x="12" y="104" width="116" height="20" rx="4" fill="#1e293b" />
+    <text x="70" y="118" text-anchor="middle" fill="#cbd5e1" class="font-mono" font-size="9.5">Django • AI Digitization</text>
+
+    <text x="70" y="142" text-anchor="middle" fill="#64748b" class="font-sans" font-size="9.5">Exam ERP &amp; OCR</text>
+  </g>
+</svg>

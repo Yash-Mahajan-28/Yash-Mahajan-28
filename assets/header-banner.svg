@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <!-- 
+  =============================================================================
+  ✏️ EDITING GUIDE FOR YASH MAHAJAN:
+  This file is plain SVG/XML text. You can edit any text directly in your editor:
+  - Line 82: Status text (e.g. "OPEN TO SDE & AI RESEARCH ROLES")
+  - Line 92: Location text (e.g. "Mumbai, India • VESIT '27")
+  - Line 97: Your name (e.g. "Yash Mahajan")
+  - Line 104: CGPI or key badge (e.g. "CGPI: 9.76 / 10")
+  - Line 109: Subtitle / Current Role (e.g. "Software Engineer • AI/ML Researcher")
+  - Line 113: Bio one-liner
+  - Lines 120-136: Bottom skill pills
+  =============================================================================
+  -->
+  <defs>
+    <!-- Background Slate Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0b1120" />
+    </linearGradient>
+
+    <!-- Subtle Ambient Glow Mesh -->
+    <radialGradient id="meshGlow1" cx="20%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.18" />
+      <stop offset="60%" stop-color="#3b82f6" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="meshGlow2" cx="80%" cy="70%" r="60%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.15" />
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="meshGlow3" cx="50%" cy="90%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.12" />
+      <stop offset="70%" stop-color="#10b981" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Hairline Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="70%" stop-color="#818cf8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Shimmer for Title -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#f1f5f9" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes liveStatus {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    }
+    .status-dot {
+      animation: liveStatus 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      transform-origin: 58px 43px;
+    }
+  </style>
+
+  <!-- BACKGROUND CARD -->
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#bgGrad)" />
+  
+  <!-- AMBIENT GLOW OVERLAYS -->
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#meshGlow1)" />
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#meshGlow2)" />
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#meshGlow3)" />
+
+  <!-- MODERN MINIMAL HAIRLINE BORDER -->
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="1.2" />
+
+  <!-- SUBTLE GEOMETRIC ACCENT GRID -->
+  <g stroke="#334155" stroke-width="0.5" opacity="0.18">
+    <line x1="40" y1="0" x2="40" y2="240" />
+    <line x1="860" y1="0" x2="860" y2="240" />
+    <line x1="0" y1="180" x2="900" y2="180" />
+  </g>
+
+  <!-- ✏️ EDITABLE: STATUS PILL -->
+  <g transform="translate(48, 30)">
+    <rect x="0" y="0" width="280" height="26" rx="13" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="14" cy="13" r="4.5" fill="#10b981" class="status-dot" />
+    <circle cx="14" cy="13" r="7.5" fill="#10b981" opacity="0.25" class="status-dot" />
+    <text x="28" y="17" fill="#cbd5e1" class="font-sans" font-size="11" font-weight="500">
+      OPEN TO SDE &amp; AI RESEARCH ROLES
+    </text>
+  </g>
+
+  <!-- ✏️ EDITABLE: LOCATION & ACADEMIC BADGE -->
+  <g transform="translate(620, 30)">
+    <rect x="0" y="0" width="232" height="26" rx="13" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <path d="M 14 8 C 11.8 8 10 9.8 10 12 C 10 15 14 19 14 19 C 14 19 18 15 18 12 C 18 9.8 16.2 8 14 8 Z M 14 13.5 C 13.2 13.5 12.5 12.8 12.5 12 C 12.5 11.2 13.2 10.5 14 10.5 C 14.8 10.5 15.5 11.2 15.5 12 C 15.5 12.8 14.8 13.5 14 13.5 Z" fill="#94a3b8" />
+    <text x="24" y="17" fill="#94a3b8" class="font-sans" font-size="11" font-weight="500">
+      Mumbai, India • VESIT '27
+    </text>
+  </g>
+
+  <!-- ✏️ EDITABLE: NAME -->
+  <text x="48" y="105" fill="url(#titleGrad)" class="font-sans" font-size="38" font-weight="700" letter-spacing="-0.5">
+    Yash Mahajan
+  </text>
+
+  <!-- ✏️ EDITABLE: CGPI OR STAT BADGE -->
+  <g transform="translate(325, 80)">
+    <rect x="0" y="0" width="130" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="0.8" />
+    <path d="M 12 7 L 14 11 L 18 11.5 L 15 14.5 L 16 18.5 L 12 16.2 L 8 18.5 L 9 14.5 L 6 11.5 L 10 11 Z" fill="#f59e0b" />
+    <text x="24" y="16" fill="#f1f5f9" class="font-sans" font-size="11" font-weight="600">CGPI: 9.76 / 10</text>
+  </g>
+
+  <!-- ✏️ EDITABLE: TITLE & SUBTITLE -->
+  <text x="48" y="140" fill="url(#accentGrad)" class="font-sans" font-size="17" font-weight="600" letter-spacing="0.2">
+    Software Engineer • AI/ML Researcher • DevOps Enthusiast
+  </text>
+
+  <text x="48" y="162" fill="#94a3b8" class="font-sans" font-size="13" font-weight="400">
+    B.Tech Computer Engineering @ VESIT | Ex Intern: Jio Platforms • Reliance • Atyeti Robotics
+  </text>
+
+  <!-- ✏️ EDITABLE: BOTTOM TAG PILLS -->
+  <g transform="translate(48, 192)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="130" height="26" rx="6" fill="#131c2e" stroke="#1e293b" stroke-width="1" />
+      <text x="14" y="17" fill="#38bdf8" class="font-mono" font-size="11" font-weight="500">Next.js • FastAPI</text>
+    </g>
+
+    <g transform="translate(142, 0)">
+      <rect x="0" y="0" width="168" height="26" rx="6" fill="#131c2e" stroke="#1e293b" stroke-width="1" />
+      <text x="14" y="17" fill="#a78bfa" class="font-mono" font-size="11" font-weight="500">PyTorch • LangChain</text>
+    </g>
+
+    <g transform="translate(322, 0)">
+      <rect x="0" y="0" width="144" height="26" rx="6" fill="#131c2e" stroke="#1e293b" stroke-width="1" />
+      <text x="14" y="17" fill="#34d399" class="font-mono" font-size="11" font-weight="500">Docker • Cloud Run</text>
+    </g>
+
+    <g transform="translate(478, 0)">
+      <rect x="0" y="0" width="160" height="26" rx="6" fill="#131c2e" stroke="#1e293b" stroke-width="1" />
+      <text x="14" y="17" fill="#fbbf24" class="font-mono" font-size="11" font-weight="500">Springer Nature LNNS</text>
+    </g>
+
+    <g transform="translate(660, 0)">
+      <rect x="0" y="0" width="144" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="0.8" />
+      <text x="14" y="17" fill="#f8fafc" class="font-mono" font-size="11" font-weight="500">Get in touch ↗</text>
+    </g>
+  </g>
+</svg>

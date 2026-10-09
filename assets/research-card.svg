@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="resBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <linearGradient id="springerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <linearGradient id="resBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    }
+    @keyframes pulseTag {
+      0%, 100% { opacity: 0.8; }
+      50% { opacity: 1; }
+    }
+    .badge-shimmer {
+      animation: pulseTag 3s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- BACKGROUND CARD -->
+  <rect x="2" y="2" width="892" height="136" rx="12" fill="url(#resBg)" stroke="url(#resBorder)" stroke-width="1.2" />
+
+  <!-- LEFT ACCENT ICON -->
+  <g transform="translate(24, 24)">
+    <rect x="0" y="0" width="48" height="48" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <!-- Book / Research Icon -->
+    <path d="M 14 14 L 24 18 L 34 14 L 34 32 L 24 35 L 14 32 Z M 24 18 L 24 35" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- MAIN PAPER DETAILS -->
+  <g transform="translate(86, 24)">
+    <!-- Top Tags -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="168" height="20" rx="4" fill="#032541" stroke="#0ea5e9" stroke-width="0.8" />
+      <text x="10" y="14" fill="#38bdf8" class="font-sans" font-size="10" font-weight="700">SPRINGER NATURE LNNS</text>
+
+      <rect x="178" y="0" width="138" height="20" rx="4" fill="#1e293b" stroke="#334155" stroke-width="0.8" />
+      <text x="188" y="14" fill="#94a3b8" class="font-sans" font-size="10" font-weight="600">ICT4SD 2026 • GOA</text>
+
+      <rect x="326" y="0" width="150" height="20" rx="4" fill="#142b20" stroke="#10b981" stroke-width="0.8" />
+      <text x="336" y="14" fill="#34d399" class="font-sans" font-size="10" font-weight="600">ACCEPTED FOR PUBLICATION</text>
+    </g>
+
+    <!-- Paper Title -->
+    <text x="0" y="44" fill="#f8fafc" class="font-sans" font-size="14.5" font-weight="700">
+      Deep Learning for Environmental Sustainability: Evaluating Residual Architectures for Microplastic Detection
+    </text>
+
+    <!-- Description & Sub-fields -->
+    <text x="0" y="66" fill="#94a3b8" class="font-sans" font-size="11.5" font-weight="400">
+      Evaluating deep residual neural networks for automated microplastic classification and high-resolution semantic segmentation.
+    </text>
+
+    <!-- Key Topics Pill Row -->
+    <g transform="translate(0, 80)">
+      <text x="0" y="11" fill="#64748b" class="font-mono" font-size="10">FOCUS AREAS:</text>
+      <text x="85" y="11" fill="#cbd5e1" class="font-mono" font-size="10">ResNet Architectures • Semantic Segmentation • Environmental AI • Computer Vision</text>
+    </g>
+  </g>
+
+  <!-- RIGHT ACTION LINK ARROW -->
+  <g transform="translate(840, 24)">
+    <circle cx="16" cy="16" r="16" fill="#1e293b" />
+    <path d="M 12 20 L 20 12 M 14 12 L 20 12 L 20 18" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 128" width="100%" height="100%">
+  <!-- 
+  =============================================================================
+  ✏️ EDITING GUIDE FOR YASH MAHAJAN:
+  This file showcases your top honors across 3 distinct tiers:
+  - Column 1: International Honors (GOLC Winner, Q-volution Top 5)
+  - Column 2: National Level Hackathons (Hackquinox 2.0 National Winner)
+  - Column 3: Institute & Sustainability (GDG VESIT TechSprint Winner, Syrus Winner)
+  =============================================================================
+  -->
+  <defs>
+    <linearGradient id="honorsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+
+    <!-- GDG Vector Symbol Definition -->
+    <g id="gdgLogo">
+      <!-- Left Angle Bracket < -->
+      <polygon points="7,1.5 2,6.5 3.5,8 8.5,3" fill="#4285F4" />
+      <polygon points="2,6.5 7,11.5 8.5,10 3.5,5" fill="#EA4335" />
+      <!-- Right Angle Bracket > -->
+      <polygon points="11,1.5 16,6.5 14.5,8 9.5,3" fill="#FBBC04" />
+      <polygon points="16,6.5 11,11.5 9.5,10 14.5,5" fill="#34A853" />
+    </g>
+  </defs>
+
+  <style>
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    }
+  </style>
+
+  <!-- CARD BASE -->
+  <rect x="2" y="2" width="892" height="124" rx="12" fill="url(#honorsBg)" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- ================= COLUMN 1: INTERNATIONAL HONORS ================= -->
+  <g transform="translate(24, 18)">
+    <g transform="translate(0, 0)">
+      <polygon points="6,0 12,12 0,12" fill="#f59e0b" />
+      <text x="18" y="10" fill="#f59e0b" class="font-sans" font-size="10.5" font-weight="700" letter-spacing="0.5">INTERNATIONAL HONORS</text>
+    </g>
+    <text x="0" y="36" fill="#f8fafc" class="font-sans" font-size="13" font-weight="600">🏆 GOLC International Award</text>
+    <text x="0" y="52" fill="#94a3b8" class="font-sans" font-size="11">Winner • Quantum Simulation Platform</text>
+    <text x="0" y="74" fill="#f8fafc" class="font-sans" font-size="12" font-weight="600">🌐 Q-volution Int'l Hackathon</text>
+    <text x="0" y="90" fill="#94a3b8" class="font-sans" font-size="11">Top 5 • Quantum Reservoir Computing</text>
+  </g>
+
+  <!-- VERTICAL DIVIDER 1 -->
+  <line x1="305" y1="18" x2="305" y2="108" stroke="#1e293b" stroke-width="1" />
+
+  <!-- ================= COLUMN 2: NATIONAL LEVEL HACKATHONS (ONLY ONE) ================= -->
+  <g transform="translate(325, 18)">
+    <g transform="translate(0, 0)">
+      <circle cx="5" cy="5" r="4" fill="#38bdf8" />
+      <text x="16" y="9" fill="#38bdf8" class="font-sans" font-size="10.5" font-weight="700" letter-spacing="0.5">NATIONAL LEVEL</text>
+    </g>
+    <text x="0" y="36" fill="#f8fafc" class="font-sans" font-size="13" font-weight="600">🥇 Hackquinox 2.0 (National)</text>
+    <text x="0" y="52" fill="#94a3b8" class="font-sans" font-size="11">Winner • SafeLabs AI + IoT Platform</text>
+    <text x="0" y="74" fill="#38bdf8" class="font-mono" font-size="10.5">⚡ National Hackathon Winner</text>
+    <text x="0" y="90" fill="#64748b" class="font-sans" font-size="10.5">Rank 1 • All-India Competitive Showcase</text>
+  </g>
+
+  <!-- VERTICAL DIVIDER 2 -->
+  <line x1="595" y1="18" x2="595" y2="108" stroke="#1e293b" stroke-width="1" />
+
+  <!-- ================= COLUMN 3: INSTITUTE & SUSTAINABILITY (WITH GDG LOGO) ================= -->
+  <g transform="translate(615, 18)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="1" width="8" height="8" rx="2" fill="#10b981" />
+      <text x="16" y="9" fill="#10b981" class="font-sans" font-size="10.5" font-weight="700" letter-spacing="0.5">INSTITUTE &amp; SUSTAINABILITY</text>
+    </g>
+
+    <!-- GDG TechSprint Row with Official GDG Logo -->
+    <g transform="translate(0, 24)">
+      <use href="#gdgLogo" x="0" y="0" />
+      <text x="24" y="11" fill="#f8fafc" class="font-sans" font-size="12.5" font-weight="600">GDG VESIT TechSprint '26</text>
+      <text x="24" y="27" fill="#94a3b8" class="font-sans" font-size="10.5">Winner • AI + IoT SafeLabs Platform</text>
+    </g>
+
+    <!-- Syrus Hackathon (Best Sustainability) -->
+    <g transform="translate(0, 62)">
+      <text x="0" y="12" fill="#f8fafc" class="font-sans" font-size="12.5" font-weight="600">🌱 Syrus Hackathon (VESIT)</text>
+      <text x="0" y="28" fill="#94a3b8" class="font-sans" font-size="10.5">Winner • Best Sustainability Award (E-Waste AI)</text>
+    </g>
+  </g>
+</svg>

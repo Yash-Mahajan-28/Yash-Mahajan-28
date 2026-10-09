@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 110" width="100%" height="100%">
+  <!-- 
+  =============================================================================
+  ✏️ EDITING GUIDE FOR YASH MAHAJAN:
+  This file is plain SVG text. You can edit any numbers/titles directly in your editor:
+  - Line 56: First metric number (e.g. "9.76") and subtitle on Line 60
+  - Line 70: Second metric text (e.g. "Springer LNNS") and subtitle on Line 71
+  - Line 81: Third metric (e.g. "5+ Wins") and subtitle on Line 82
+  - Line 92: Fourth metric (e.g. "4 Internships") and subtitle on Line 93
+  =============================================================================
+  -->
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0b1120" />
+    </linearGradient>
+
+    <!-- Card 1 Accent Gradient -->
+    <linearGradient id="c1Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+
+    <!-- Card 2 Accent Gradient -->
+    <linearGradient id="c2Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <!-- Card 3 Accent Gradient -->
+    <linearGradient id="c3Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <!-- Card 4 Accent Gradient -->
+    <linearGradient id="c4Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes cardShimmer {
+      0%, 100% { stroke-opacity: 0.5; }
+      50% { stroke-opacity: 0.95; }
+    }
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .card-border {
+      animation: cardShimmer 4s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- ================= ✏️ EDITABLE CARD 1: CGPI ================= -->
+  <g transform="translate(0, 0)">
+    <rect x="0" y="0" width="212" height="108" rx="12" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="0" y="0" width="212" height="108" rx="12" fill="none" stroke="url(#c1Grad)" stroke-width="1" class="card-border" stroke-opacity="0.4" />
+    
+    <g transform="translate(18, 22)">
+      <circle cx="4" cy="4" r="3" fill="#f59e0b" />
+      <text x="14" y="8" fill="#94a3b8" class="font-sans" font-size="11" font-weight="600" letter-spacing="0.5">ACADEMIC EXCELLENCE</text>
+    </g>
+
+    <text x="18" y="66" fill="#f8fafc" class="font-sans" font-size="25" font-weight="700">9.76</text>
+    <text x="78" y="66" fill="#64748b" class="font-sans" font-size="15" font-weight="500">/ 10</text>
+
+    <text x="18" y="88" fill="#94a3b8" class="font-sans" font-size="11" font-weight="500">Aggregate CGPI • VESIT Mumbai</text>
+  </g>
+
+  <!-- ================= ✏️ EDITABLE CARD 2: RESEARCH ================= -->
+  <g transform="translate(228, 0)">
+    <rect x="0" y="0" width="212" height="108" rx="12" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="0" y="0" width="212" height="108" rx="12" fill="none" stroke="url(#c2Grad)" stroke-width="1" class="card-border" stroke-opacity="0.4" />
+    
+    <g transform="translate(18, 22)">
+      <circle cx="4" cy="4" r="3" fill="#38bdf8" />
+      <text x="14" y="8" fill="#94a3b8" class="font-sans" font-size="11" font-weight="600" letter-spacing="0.5">RESEARCH &amp; PAPERS</text>
+    </g>
+
+    <text x="18" y="66" fill="#f8fafc" class="font-sans" font-size="22" font-weight="700">Springer LNNS</text>
+    <text x="18" y="88" fill="#94a3b8" class="font-sans" font-size="11" font-weight="500">ICT4SD 2026 • Microplastic AI</text>
+  </g>
+
+  <!-- ================= ✏️ EDITABLE CARD 3: HACKATHONS ================= -->
+  <g transform="translate(456, 0)">
+    <rect x="0" y="0" width="212" height="108" rx="12" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="0" y="0" width="212" height="108" rx="12" fill="none" stroke="url(#c3Grad)" stroke-width="1" class="card-border" stroke-opacity="0.4" />
+    
+    <g transform="translate(18, 22)">
+      <circle cx="4" cy="4" r="3" fill="#10b981" />
+      <text x="14" y="8" fill="#94a3b8" class="font-sans" font-size="11" font-weight="600" letter-spacing="0.5">HACKATHONS &amp; AWARDS</text>
+    </g>
+
+    <text x="18" y="66" fill="#f8fafc" class="font-sans" font-size="25" font-weight="700">5+ Wins</text>
+    <text x="18" y="88" fill="#94a3b8" class="font-sans" font-size="11" font-weight="500">GOLC Int'l • GDG • Hackquinox</text>
+  </g>
+
+  <!-- ================= ✏️ EDITABLE CARD 4: INTERNSHIPS ================= -->
+  <g transform="translate(684, 0)">
+    <rect x="0" y="0" width="212" height="108" rx="12" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="0" y="0" width="212" height="108" rx="12" fill="none" stroke="url(#c4Grad)" stroke-width="1" class="card-border" stroke-opacity="0.4" />
+    
+    <g transform="translate(18, 22)">
+      <circle cx="4" cy="4" r="3" fill="#ec4899" />
+      <text x="14" y="8" fill="#94a3b8" class="font-sans" font-size="11" font-weight="600" letter-spacing="0.5">ENGINEERING ROLES</text>
+    </g>
+
+    <text x="18" y="66" fill="#f8fafc" class="font-sans" font-size="24" font-weight="700">Internships</text>
+    <text x="18" y="88" fill="#94a3b8" class="font-sans" font-size="11" font-weight="500">Jio • Reliance • Atyeti • VESIT</text>
+  </g>
+</svg>
